@@ -9,7 +9,7 @@ fn main() {
                 counter += 1;
             }
             counter
-        }));
+        })); // thread::spawn returns a handle to the thread
     }
 
     let final_counter = handles.into_iter().map(|h| h.join().unwrap()).sum::<i32>();

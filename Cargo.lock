@@ -9,3 +9,7 @@ version = "0.1.0"
 [[package]]
 name = "counter_example"
 version = "0.1.0"
+
+[[package]]
+name = "scoped_thread"
+version = "0.1.0"
